@@ -1,0 +1,264 @@
+\documentclass[%singlesided,
+               doublesided,
+               paper=a4,
+               fontsize=10pt
+              ]{my-resume}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% set geometry
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength\highlightwidth{8cm}
+\setlength\headerheight{4cm}            % note that margintop gets added to this value, i.e. the header bar is 5cm
+\setlength\marginleft{1cm}
+\setlength\marginright{\marginleft}      % needs to be 1.5 times to be actually equal. why?
+\setlength\margintop{1cm}
+\setlength\marginbottom{1cm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FONTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage{fontspec}
+\setmainfont{Carlito}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COLORS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\colorlet{highlightbarcolor}{lightgray}
+\colorlet{headerbarcolor}{darkgray}
+
+\colorlet{headerfontcolor}{white}
+\colorlet{accent}{awesome-red}
+\colorlet{heading}{black}
+\colorlet{emphasis}{black}
+\colorlet{body}{black}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% set document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\name{Ansh Sarkar}
+\tagline{Deadline Driven , Ever-Learning and Results Oriented Programmer , \\Researcher and Content Writer ( on Medium and GeekForGeeks )\\\\Tech Stack : Python , C , C++ , Django , Web Development , Machine Learning}
+\photo[round]{profile.jpeg}{\dimexpr \headerheight-\marginbottom}   % make photo exactly match the header with margintop/marginright/marginbottom as margin
+
+\makeheader
+
+\highlightbar{
+
+    \section{Contact}
+    
+    \email{anshsarkar18@gmail.com}
+    \phone{+91 77979 99441}
+    \location{Uttorayon D1604 , Siliguri}
+    \vspace{0.5em}
+    \homepage{ansh-sarkar.github.io}{https://ansh-sarkar.github.io/}
+    \github{@Cyclopstark}{https://github.com/Cyclopstark}
+    \linkedin{Ansh Sarkar}{https://www.linkedin.com/in/ansh-sarkar/}
+    \ads{Academia.edu}{https://independent.academia.edu/Thetheoreticalphysicist}
+    
+    \section{Skills}
+    
+    \skillsection{Programming}
+    \skill{Python}{5}
+    \skill{Bash}{3}
+    \skill{C++}{4}
+    \skill{R}{4}
+    \skill{C}{5}
+    \skill{Git \& Github}{4}
+    \skill{Octave}{3}
+    \skill{HTML/CSS}{5}
+    \skill{LaTeX}{3}
+    
+    \vspace{0.5em}
+    \skillsection{Operating Systems}
+    \skill{Linux}{2}
+    \skill{Windows}{5}
+    
+    \vspace{0.5em}
+    \skillsection{Software \& Tools}
+    \skill{Visualisation}{4}
+    (e.g. matplotlib , seaborn ...)\\
+    \skill{Data handling/analysis}{4}
+    (e.g. numpy , pandas , ...)\\
+    \skill{Quantum Computing}{3}
+    (Qiskit)\\
+    \skill{Backend}{4}
+    (e.g. django , ReactJS , ...)\\
+    \skill{Machine Learning}{3}
+    (e.g. Tensorflow , Keras , Scikit-Learn ...)
+    \skill{Office}{5}
+    
+    
+    \vspace{0.5em}
+    \skillsection{Languages}
+    \skill{Hindi}{5}
+    \skill{English}{5}
+    \skill{Bengali}{3}
+    \bigskip
+    
+    \section{Certificates}
+    \simpleskill{Google Cloud : Create and Manage Cloud Resources}
+    \bigskip
+    \href{https://ansh-sarkar.github.io/}{Click Here for More Certificates and List of Completed Courses}
+
+}
+\mainbar{
+    \section[\faInfo]{About Me}
+    My name is Ansh Sarkar and I am here to stand out from the crowd of geeks and computer enthusiasts. My code is my symphony. I am a designer by heart , programmer by day and a research enthusiast by mind.
+    
+    \section[\faGears]{Work history}
+    \job{October , 2020}
+        {Ultimate Coders Team\\codewithgeeks.com\\ Online\smallskip}
+        {Member of the Core team}
+        {Conducted webinars and interactive sessions to help people get started in the different fields of programming}
+    \job{September , 2020}
+        {In4mals Society , KIIT\\Online\smallskip}
+        {Member of the Coding team}
+        {Participating in Team activities and coding for projects. Contributed to KIIT FOSS repository during HacktoberFest.}
+    
+    \section[\faMortarBoard]{Education}
+    \job{March 2019 - March 2020}
+        {Delhi Public School , Siliguri\smallskip}
+        {Class X Boards}
+        {Secured : 96.20\% | Subjects : Social Science , Maths , Science , English and Hindi}
+        
+    \job{March 2019 - March 2020}
+        {Delhi Public School , Siliguri\smallskip}
+        {Class XII Boards}
+        {Secured : 96.60\% | Subjects : Physics , Maths , Chemistry , English , Computer Science and Physical Education}
+    
+    \job{September 2020 - Present}
+        {Kalinga Institute of Industrial Technology\smallskip}
+        {BTech Computer Science}
+    
+        
+    \section[\faFlagCheckered]{Achievements, honours and awards}
+    \achievement{Pratibha Samman Medal , For Class X result}
+    \achievement{Secured 100\% scholarship in ANTHE 2018 for
+    class 11 and 12.}
+    \achievement{Secured 100\% scholarship at Amity Noida , CSE Branch}
+    \achievement{Successfully completed HacktoberFest 2020}
+    \achievement{Entrance Exams : }
+    \tag{JEE Main : 96.52 \%ile}
+    \tag{SOA : AIR 1095}
+    \tag{WBJEE : AIR 1195}
+    \tag{Manipal Entrance Test : Rank 919}
+    \tag{BITSAT : Score 313}
+    
+}
+\makebody
+\clearpage
+
+
+
+\makeheader
+\highlightbar{
+
+    \section{Contact}
+    
+    \email{anshsarkar18@gmail.com}
+    \phone{+91 77979 99441}
+    \location{Uttorayon D1604 , Siliguri}
+    \vspace{0.5em}
+    \homepage{ansh-sarkar.github.io}{https://ansh-sarkar.github.io/}
+    \github{@Cyclopstark}{https://github.com/Cyclopstark}
+    \linkedin{Ansh Sarkar}{https://www.linkedin.com/in/ansh-sarkar/}
+    \ads{Academia.edu}{https://independent.academia.edu/Thetheoreticalphysicist}
+    
+    \section{Research}
+    
+    \skillsection{My topics of Interest}
+    \skill{Programming}{5}
+    \skill{Machine Learning}{5}
+    \skill{Quantum Computing}{4}
+    \skill{Prime Numbers}{5}
+    \skill{Number Theory}{5}
+    \skill{The Collatz Conjecture}{5}
+    \skill{Black Holes}{5}
+    \skill{Nuclear technology}{5}
+    \skill{Artificial Intelligence}{5}
+    \skill{Algorithms}{5}
+    \bigskip
+    
+    \vspace{0.5em}
+    \skillsection{Software \& Tools}
+    \skill{Information Collection}{4}
+    (e.g. Evernote , Diaro ...)\\
+    \skill{Research Paper Writing}{4}
+    (LaTex)\\
+    
+    \vspace{0.5em}
+    \skillsection{Language}
+    \skill{English}{5}
+    \bigskip
+
+}
+\mainbar{
+    \section[\faHashtag]{My Hobbies}
+    % This is taken from AltaCV
+    % see https://github.com/liantze/AltaCV for details
+    \wheelchart{1.5cm}{0.5cm}{% outer and inner diameter
+        6/8em/accent!20/Programming,          % comma-separated list of
+        8/8em/accent!40/Learning New Skills,    % fraction of 24 / line length / color / label
+        2/8em/accent!80/Research,          % here, the color is shades of the accent color
+        3/8em/accent!60/Chess,
+        5/8em/accent/Table Tennis
+    }
+    
+    \section[\faCode]{Projects}
+    \publication
+	{Simple starter blog using Django , HTML5 , CSS3 and ES6 } % Title
+	{\textbf{Author : Ansh Sarkar}} % Authors
+	{2019} % Year
+	{} % Journal
+	{} % ADS & arxiv links
+    
+    \publication
+	{Bank Database Management System in C++ , as a part of Class XII Assignment} % Title
+	{\textbf{Author : Ansh Sarkar}} % Authors
+	{2020} % Year
+	{} % Journal
+	{} % ADS & arxiv links
+	
+	\publication
+	{Made my portfolio website using Bootstrap , CSS , HTML5 and CSS3} % Title
+	{\textbf{Author : Ansh Sarkar}} % Authors
+	{2020} % Year
+	{} % Journal
+	{} % ADS & arxiv links
+	
+	\publication
+	{ResNet50 based animal image classifier , Keras with Tensorflow Backend} % Title
+	{\textbf{Author : Ansh Sarkar}} % Authors
+	{2020} % Year
+	{} % Journal
+	{} % ADS & arxiv links
+	
+    \section[\faUniversity]{Publications}
+    \publication
+	{Modifying Einstein's Theory of Time Dilation by introducing Refractive Index of the material as a factor} % Title
+	{\textbf{Author : Ansh Sarkar} \\Paper Views : 47 , Paper Mentions : 773 , As of : 30th November 2020} % Authors
+	{2018} % Year
+	{International Journal of Innovative Science and Research Technology (IJISRT) , Volume 3 - 2018, Issue 7 - July} % Journal
+	{\href{https://ijisrt.com/a-new-dimension-to-time-dilation}{IJISRT}} % ADS & arxiv links
+	
+	\publication
+	{A small research based article on current applications of Nuclear Technology. The article aims to give an insight into the various fields into which Nuclear Technology has found indispensable use} % Title
+	{\textbf{Author : Ansh Sarkar}} % Authors
+	{2020} % Year
+	{Medium.com Article Publishing} % Journal
+	{\href{https://medium.com/@ansh_sarkar/nuclear-technology-the-future-of-mankind-bbc0d9c93c99}{MEDIUM}} % ADS & arxiv links
+    
+}
+\makebody
+\clearpage
+
+\end{document}
